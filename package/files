@@ -1,0 +1,2 @@
+paftransfer/bin/pafserver /usr/sbin/pafserver
+etc/systemd/system/pafserver.service /etc/systemd/system/pafserver.service
