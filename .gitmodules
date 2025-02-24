@@ -1,0 +1,3 @@
+[submodule "paftransfer"]
+	path = paftransfer
+	url = git@github.com:Polylegio/paftransfer.git

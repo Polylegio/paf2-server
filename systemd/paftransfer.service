@@ -1,0 +1,9 @@
+[Unit]
+Description=Starting the Polylegio Accelerated File Transfer server
+After=multi-user.target
+
+[Service]
+ExecStart=/usr/sbin/pafserver
+
+[Install]
+WantedBy=multi-user.target
