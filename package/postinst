@@ -1,1 +1,2 @@
 systemctl enable paftransfer.service
+systemctl enable pafmonitor.service

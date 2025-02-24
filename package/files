@@ -1,2 +1,4 @@
 paftransfer/bin/pafserver /usr/sbin/pafserver
+paftransfer/bin/pafmonitor /usr/sbin/pafmonitor
 etc/systemd/system/pafserver.service /etc/systemd/system/pafserver.service
+etc/systemd/system/pafmonitor.service /etc/systemd/system/pafmonitor.service
