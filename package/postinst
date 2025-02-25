@@ -1,4 +1,4 @@
-systemctl enable paftransfer.service
+systemctl enable pafserver.service
 systemctl enable pafmonitor.service
 
 # Define the file path
