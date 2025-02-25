@@ -1,5 +1,6 @@
 systemctl enable pafserver.service
 systemctl enable pafmonitor.service
+ldconfig
 
 # Define the file path
 FILE_PATH="/etc/pafserver.conf"
