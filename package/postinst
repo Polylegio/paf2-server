@@ -1,2 +1,20 @@
 systemctl enable paftransfer.service
 systemctl enable pafmonitor.service
+
+# Define the file path
+FILE_PATH="/etc/pafserver.conf"
+
+# Check if the file exists
+if [ -f "$FILE_PATH" ]; then
+    echo "File $FILE_PATH already exists. No changes made."
+else
+    echo "File $FILE_PATH does not exist. Creating..."
+    
+    # Create the file and write three lines into it
+    echo "basedir: /home/paf" > "$FILE_PATH"
+    echo "ipaddress: 127.0.0.1" >> "$FILE_PATH"
+    echo "port: 8000" >> "$FILE_PATH"
+    echo "s3importscript: /home/forge/idn-file-transfer-api.polylegio.work/aws-script.php" >> "$FILE_PATH" 
+    
+    echo "File $FILE_PATH has been created and initialized, you must update it with your local configuration."
+fi
