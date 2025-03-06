@@ -1,5 +1,9 @@
 systemctl enable pafserver.service
 systemctl enable pafmonitor.service
+systemctl daemon-reload pafserver.service
+systemctl daemon-reload pafmonitor.service
+systemctl restart pafserver.service
+systemctl restart pafmonitor.service
 ldconfig
 
 # Define the file path
