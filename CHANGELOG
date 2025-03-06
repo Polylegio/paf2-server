@@ -1,6 +1,7 @@
 version - 0.1.0 - 2025-03-06
 ============================
 - using paftransfer 0.1.1
+- added daemon-reload and restart in postinst for the services
 
 version - 0.1.0 - 2025-02-26
 ============================
