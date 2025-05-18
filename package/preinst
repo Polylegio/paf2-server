@@ -1,8 +1,0 @@
-#!/bin/sh
-. /etc/os-release
-
-if [ "$VERSION_CODENAME" != "jammy" ]; then
-    echo "This package is intended for Ubuntu Jammy (22.04)."
-    exit 1
-fi
-
