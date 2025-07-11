@@ -1,1 +1,1 @@
-libpq5,libjsoncpp25
+libpq5,libjsoncpp25,libcurl3-gnutls
