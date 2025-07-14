@@ -4,6 +4,7 @@ After=multi-user.target
 
 [Service]
 ExecStart=/usr/sbin/pafmonitor
+Restart=always
 
 [Install]
 WantedBy=multi-user.target
