@@ -1,6 +1,11 @@
+version - 0.6.1 - 2025-07-15
+============================
+- using paftransfer 0.6.1
+- systemd now always restart pafserver and pafmonitor if they become stopped
+
 version - 0.6.0 - 2025-07-11
 ============================
-- using paftransger 0.6.0
+- using paftransfer 0.6.0
 
 version - 0.5.1 - 2025-06-23
 ============================
