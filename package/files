@@ -1,5 +1,4 @@
 paftransfer/bin/pafserver /usr/sbin/pafserver
 paftransfer/bin/pafmonitor /usr/sbin/pafmonitor
-paftransfer/lib/libsrt.so.1.5.4-ubuntu_22.04-amd64 /usr/local/lib/libsrt.so.1.5.4
 etc/systemd/system/pafserver.service /etc/systemd/system/pafserver.service
 etc/systemd/system/pafmonitor.service /etc/systemd/system/pafmonitor.service
