@@ -19,7 +19,7 @@ else
     
     # Create the file and write three lines into it
     echo "basedir: /home/paf" > "$FILE_PATH"
-    echo "ipaddress: 127.0.0.1" >> "$FILE_PATH"
+    echo "ipaddress: 0.0.0.0" >> "$FILE_PATH"
     echo "port: 8000" >> "$FILE_PATH"
     echo "s3importscript: /home/forge/idn-file-transfer-api.polylegio.work/aws-script.php" >> "$FILE_PATH" 
     
