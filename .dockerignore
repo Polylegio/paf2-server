@@ -1,0 +1,6 @@
+.git
+paftransfer/.git
+paftransfer/proute-common/.git
+paftransfer/obj/*
+paftransfer/bin/*
+*.o
