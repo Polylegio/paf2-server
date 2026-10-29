@@ -6,7 +6,7 @@ set -eu
 : "${PAF_SRT_PORT:=8000}"
 : "${PAF_S3_IMPORT_SCRIPT:=/usr/local/bin/paf-s3-import-disabled}"
 : "${PAF_NODE_SERIAL_NUMBER:=}"
-PAF_DATABASE_READ_URL="${DATABASE_READ_URL:-${DATABASE_URL:-${DATABASE_WRITE_URL:-}}}"
+PAF_DATABASE_WRITE_URL="${DATABASE_WRITE_URL:-${DATABASE_URL:-${DATABASE_READ_URL:-}}}"
 
 mkdir -p "$PAF_UPLOAD_DIR"
 
@@ -16,7 +16,7 @@ ipaddress: $PAF_SRT_LISTEN_ADDRESS
 port: $PAF_SRT_PORT
 s3importscript: $PAF_S3_IMPORT_SCRIPT
 nodeserialnumber: $PAF_NODE_SERIAL_NUMBER
-databasereadurl: $PAF_DATABASE_READ_URL
+databasereadurl: $PAF_DATABASE_WRITE_URL
 EOF
 
 exec "$@"
